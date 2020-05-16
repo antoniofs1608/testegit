@@ -5,5 +5,6 @@ return b
 else:
 return a
 
-print(max(1, 2))
+assert max(1, 2) == max(2, 1) == 2:wq
+
 
